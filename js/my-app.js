@@ -36,9 +36,9 @@ var myApp = new Framework7({
     	name: 'habitacion',
   		},
 		{
-		path: '/perfil/',
-    	url: 'perfil.html',
-    	name: 'perfil',
+		path: '/yo/',
+    	url: 'yo.html',
+    	name: 'yo',
   		},
 	]
 });
