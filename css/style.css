@@ -62,14 +62,7 @@ body{
 	padding: 5px 10px;
 	font-size: 12px;
 }
-.bg-men{
-	background-image: url(../img/bg-men.jpg);
-	background-size: cover;
-}
-.bg-women{
-	background-image: url(../img/bg-women.jpg);
-	background-size: cover;
-}
+
 
 
 h1,h2,h3,h4,h5,h6{
@@ -118,6 +111,13 @@ h1,h2,h3,h4,h5,h6{
 	margin-bottom: 10px;
 }
 
+.block1{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: 500;
+}
 
 
 #list-products .item-media img{
@@ -201,8 +201,6 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 30px;
 	color: var(--color-azul);
 }
-
-
 
 
 
