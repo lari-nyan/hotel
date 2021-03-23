@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Airbnb</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="color-theme-purple">
+
+	<div id="app">
+      
+      
+      <section class="panel panel-left panel-cover">
+      	
+      	<div class="top-panel">
+      		Menú
+      	</div>
+      	
+      	<div class="list media-list">
+      		<ul>
+      			<li>
+      				<a href="/home/" class="item-content item-link panel-close">
+      					<div class="item-media">
+      						<span class="material-icons">home</span>
+      					</div>
+      					<div class="item-inner">
+      						Inicio
+      					</div>
+      				</a>
+      			</li>
+      			<li>
+      				<a href="/brands/" class="item-content item-link panel-close">
+      					<div class="item-media">
+      						<span class="material-icons">night_shelter</span>
+      					</div>
+      					<div class="item-inner">
+      						Habitaciones
+      					</div>
+      				</a>
+      			</li>
+      			<li>
+      				<a href="/nike/" class="item-content item-link panel-close">
+      					<div class="item-media">
+      						<span class="material-icons">other_houses</span>
+      					</div>
+      					<div class="item-inner">
+      						Reservaciones
+      					</div>
+      				</a>
+      			</li>
+      			<li>
+      				<a href="/perfil/" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">account_box</span>
+      					</div>
+      					<div class="item-inner">
+      						Perfil
+      					</div>
+      				</a>
+      			</li>
+      			<li>
+      				<a href="#" class="item-content item-link">
+      					<div class="item-media">
+      						<span class="material-icons">logout</span>
+      					</div>
+      					<div class="item-inner">
+      						Salir
+      					</div>
+      				</a>
+      			</li>
+      			
+      		</ul>
+      	</div>
+      	
+      	
+      </section>
+      
+
+      <div class="view view-main view-init">
+
+       <div class="toolbar toolbar-bottom tabbar-labels">
+		  <div class="toolbar-inner">
+			<a href="/home/" class="tab-link">
+				<i class="material-icons">home</i>
+				Home
+			</a>
+			<a href="#" class="tab-link">
+				<i class="material-icons">chat_bubble</i>
+				Messages
+			</a>
+			<a href="#" class="tab-link">
+				<i class="material-icons">shopping_cart</i>
+				Cart
+			</a>
+			<a href="#" class="tab-link">
+				<i class="material-icons">account_circle</i>
+				Account
+			</a>
+		  </div>
+		</div>
+       
+        <section data-name="home" class="page">
+
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+             	<div class="left">
+             		<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span></a>
+             	</div>
+              	<div class="title">Airbnb</div>
+              	<div class="right">
+              		<a href="#" class="link"><span class="material-icons">notifications</span></a>
+              	</div>
+            </div>
+          </nav>
+
+
+          <!-- Scrollable page content -->
+          <section class="page-content">
+           
+                      
+            <article class="block">
+            	
+					<article class="col">
+						<h2 class="block-title no-margin">Habitaciones Disponibles</h2>
+					</article>
+					<article class="col text-align-right">
+						<a href="#">Ver todo</a>
+					</article>
+			
+           
+           		<div class="productos">
+           			
+           				<article class="col">
+           					<div class="card">
+           						<div class="card-header">
+           							<img src="img/alojamientos-enteros.jpg" class="img-fluid" alt="alojamientos">
+           						</div>
+           						<div class="card-content">
+									
+									<h4><a><span class="material-icons">favorite_border</span></a>  $95.00/Noche &#9733;4.8 (145 reseñas) </h4>
+									Alojamientos enteros	
+           																		
+											
+									</div>	
+           						</div>
+           						<div class="card-footer">
+           							<a href="/casa/" class="button button-fill">Comprobar disponibilidad</a>
+           						</div>
+           					
+           					
+           				</article>
+           				<article class="col">
+           					<div class="card">
+           						<div class="card-header">
+           							<img src="img/alojamientos-unicos.jpg" class="img-fluid" alt="alojamientos unicos">
+           						</div>
+           						<div class="card-content">
+           							<h4><a><span class="material-icons">favorite_border</span></a>$178.00/Noche &#9733;4.3 (235 reseñas)</h4>
+									
+           							Alojamientos Únicos
+									
+           						</div>
+           						<div class="card-footer">
+           							<a href="/habitacion/" class="button button-fill">Comprobar Disponiblidad</a>
+           						</div>
+           					</div>
+           				</article>
+				
+				
+					<article class="col">
+           					<div class="card">
+           						<div class="card-header">
+           							<img src="img/cabañas-y-casas.jpg" class="img-fluid" alt="cabañas">
+           						</div>
+           						<div class="card-content">
+									<div>
+           							<h4><a><span class="material-icons">favorite_border</span></a>$60/Noche  &#9733;4.3 (175 reseñas);</h4>
+									
+           							Cabañas y Casas de Campo
+									</div>
+           						</div>
+           						<div class="card-footer">
+           							<a href="#" class="button button-fill">Comprobar Disponiblidad</a>
+           						</div>
+           					</div>
+           				</article>
+				
+				
+					<article class="col">
+           					<div class="card">
+           						<div class="card-header">
+           							<img src="img/con-tu-mascota.jpg" class="img-fluid" alt="mascota">
+           						</div>
+           						<div class="card-content">
+           							<h4><a><span class="material-icons">favorite_border</span></a>$125.00/Noche &#9733;4.8 (273 reseñas)</h4>
+									
+           							Con tu mascota
+									
+           						</div>
+           						<div class="card-footer">
+           							<a href="#" class="button button-fill">Comprobar Disponiblidad</a>
+           						</div>
+           					</div>
+           				</article>
+           			
+           		</div>
+           		
+            </article>
+            
+            
+                       
+            
+            
+          </section> <!-- content -->
+          
+          
+        </section> <!-- page -->
+        
+        
+        
+        <section id="login">
+			<div class="login-screen modal-in">
+			  <div class="page-content login-screen-content ">
+				<div class="login-screen-title">Airbnb</div>
+				<form>
+				  <div class="list">
+					<ul>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Nombre</div>
+						  <div class="item-input">
+							<input type="text" name="username" placeholder="Your username">
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Contraseña</div>
+						  <div class="item-input">
+							<input type="password" name="password" placeholder="Your password">
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+
+				</form>
+
+					<div class="block text-align-center">
+						<a href="#" class="button button-fill login-screen-close">Iniciar</a>
+						<p>¿No tienes cuenta? <a href="#" class="popup-open" data-popup="#sign-up">Registrarse</a>.</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+       
+       
+       	<section id="sign-up" class="popup">
+       	
+       		<h1 class="text-align-center">Airbnb</h1>
+       		<h2 class="block-title">Registrarse</h2>
+       		
+       		<div class="block">
+       			<form id="form" class="list">
+       				<ul>
+       					<li>
+       						<div class="item-content item-input">
+							  <div class="item-inner">
+								<div class="item-title item-label">Nombre</div>
+								<div class="item-input-wrap">
+								  <input type="text" name="name" placeholder="Nombre Completo" />
+								</div>
+							  </div>
+							</div>
+       					</li>
+       					<li>
+       						<div class="item-content item-input">
+							  <div class="item-inner">
+								<div class="item-title item-label">Correo</div>
+								<div class="item-input-wrap">
+								  <input type="email" name="email" placeholder="Dirección de correo" />
+								</div>
+							  </div>
+							</div>
+       					</li>
+       					<li>
+       						<div class="item-content item-input">
+							  <div class="item-inner">
+								<div class="item-title item-label">Teléfono</div>
+								<div class="item-input-wrap">
+								  <input type="tel" name="email" placeholder="Phone Number" />
+								</div>
+							  </div>
+							</div>
+       					</li>
+						<li>
+       						<div class="item-content item-input">
+							  <div class="item-inner">
+								<div class="item-title item-label">País</div>
+								<div class="item-input-wrap">
+								  <input type="text" name="name" placeholder="País" />
+								</div>
+							  </div>
+							</div>
+       					</li>
+						<li>
+       						<div class="item-content item-input">
+							  <div class="item-inner">
+								<div class="item-title item-label">Ciudad</div>
+								<div class="item-input-wrap">
+								  <input type="text" name="name" placeholder="Ciudad" />
+								</div>
+							  </div>
+							</div>
+       					</li>
+       					<li>
+       						<div class="item-content item-input">
+							  <div class="item-inner">
+								<div class="item-title item-label">Contraseña</div>
+								<div class="item-input-wrap">
+								  <input type="password" name="email" placeholder="Password" />
+								</div>
+							  </div>
+							</div>
+       					</li>
+       				</ul>
+       				
+       			</form>       			
+       			
+       		</div>
+       		
+       		<div class="block">
+       			<a href="#" class="button button-fill">Iniciar</a>
+       			<p><a href="#" class="popup-close button">Cancelar</a></p>
+       		</div>
+       		
+       	</section>
+        
+      </div> <!-- view -->
+      
+      
+      
+      
+    </div><!-- app -->
+
+
+
+	
+	
+
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/my-app.js"></script>
+
+</body>
+</html>
